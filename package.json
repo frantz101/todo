@@ -18,7 +18,8 @@
   },
   "homepage": "https://github.com/frantz101/todo#readme",
   "dependencies": {
-    "handlebars": "^4.0.11"
+    "handlebars": "^4.0.11",
+    "less": "^3.0.4"
   },
   "devDependencies": {
     "css-loader": "^0.28.11",
