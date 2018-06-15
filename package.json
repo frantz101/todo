@@ -1,0 +1,31 @@
+{
+  "name": "todo",
+  "version": "1.0.0",
+  "description": "simple todo practice",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack --watch --config webpack.config.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/frantz101/todo.git"
+  },
+  "author": "Frantz Senat,Ben Warthen",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/frantz101/todo/issues"
+  },
+  "homepage": "https://github.com/frantz101/todo#readme",
+  "dependencies": {
+    "handlebars": "^4.0.11"
+  },
+  "devDependencies": {
+    "css-loader": "^0.28.11",
+    "handlebars-loader": "^1.7.0",
+    "less-loader": "^4.1.0",
+    "style-loader": "^0.21.0",
+    "webpack": "^4.12.0",
+    "webpack-cli": "^3.0.6"
+  }
+}
